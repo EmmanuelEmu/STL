@@ -1,0 +1,12 @@
+8
+abc
+def
+abc
+ghi
+edc
+abc
+xyz
+lmn
+2
+abc
+def
