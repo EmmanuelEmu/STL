@@ -14,13 +14,15 @@ void printVec(vector<int> &v){
 int main()
 {
 
-    vector <int> v = {1,2,3,4,5};
+    vector <int> v = {1,10,3,4,5};
     vector<int> &v2 = v; // Complexity -> O(n)
-    printVec(v2);
-    v2.pop_back();
-    printVec(v2);
-    printVec(v);
-    printVec(v);
+    // printVec(v2);
+    // v2.pop_back();
+    // printVec(v2);
+    // printVec(v);
+    // printVec(v);
+    auto it = find(v.begin(), v.end(), 10);
+    cout << distance(v.begin(), it)  << it << endl;
     /*vector <int> v;
     vector <int> :: iterator i;
     vector <int> :: reverse_iterator j;
